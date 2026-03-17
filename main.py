@@ -18,13 +18,14 @@ def main():
         
         # Aqui você pode adicionar processamento de imagem
         frame = cv2.flip(frame, 1)  # espelha o frame horizontalmente
-        
-        
+        frame_hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+
+
         
         # aqui vc exibe o frame processado
-        cv2.imshow('Webcam', frame)
-        if cv2.waitKey(1) & 0xFF == ord('q'): # Pressione 'q' para sair
-            break
+        # cv2.imshow('Webcam', frame)
+        # if cv2.waitKey(1) & 0xFF == ord('q'): # Pressione 'q' para sair
+        #     break
 
     cap.release()
     cv2.destroyAllWindows()
