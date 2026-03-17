@@ -3,8 +3,8 @@
 
 ### INFORMAÇÕES DO ALUNO (Individual)
 
-Nome: ________________________________  
-RM: _________________________________  
+Nome: Leonardo Schunck Rainha
+RM: 99902  
 
 Modifique o arquivo `main.py` para processar um frame do vídeo, identificar a nave principal e os tiros. O código deve **contar o número total de tiros que atingiram a nave** ao longo do vídeo.
 
